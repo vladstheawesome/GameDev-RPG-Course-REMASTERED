@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RPG.CameraUI
+namespace RPG.Core
 {
     public class MouseOrbit : MonoBehaviour
     {
