@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using RPG.Movement;
+using RPG.Core;
 
 namespace RPG.Combat
 {
@@ -30,8 +31,8 @@ namespace RPG.Combat
 
         public void Attack(CombatTarget combatTarget)
         {
+            GetComponent<ActionScheduler>().StartAction(this);
             target = combatTarget.transform;
-            print("take that you enemy!!");
         }
 
         public void Cancel()
