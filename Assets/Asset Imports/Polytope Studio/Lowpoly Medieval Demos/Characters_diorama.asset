@@ -3,9 +3,8 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -43,8 +42,8 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 0.5
-      radius: 0.35
+      intensity: 0.84
+      radius: 2.01
       sampleCount: 16
       downsampling: 1
       forceForwardCompatibility: 0
@@ -72,7 +71,7 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 2.57
+      focusDistance: 4.3
       aperture: 4.7
       focalLength: 49
       useCameraFov: 0
@@ -101,7 +100,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.22
+        intensity: 1.1
         threshold: 1.1
         softKnee: 0.711
         radius: 2.43
@@ -297,7 +296,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       mode: 0
-      color: {r: 0.47794116, g: 0.014057106, b: 0.014057106, a: 1}
+      color: {r: 0.24264705, g: 0.13948512, b: 0.008920842, a: 1}
       center: {x: 0.5, y: 0.5}
       intensity: 0.389
       smoothness: 0.396
