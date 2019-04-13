@@ -104,7 +104,7 @@ MonoBehaviour:
   collisionOffset: 0.3
   minDistance: 4
   maxDistance: 12
-  height: 1.5
+  height: 2.3
   horizontalRotationSpeed: 250
   verticalRotationSpeed: 150
   rotationDampening: 0.75

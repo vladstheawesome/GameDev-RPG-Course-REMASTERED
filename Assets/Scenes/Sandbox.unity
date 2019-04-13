@@ -716,15 +716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8430411252023922157, guid: 13453e2c5cafac243adf2ae37748d7c0,
+    - target: {fileID: 6818638252396743367, guid: 13453e2c5cafac243adf2ae37748d7c0,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5195027975239078359, guid: 13453e2c5cafac243adf2ae37748d7c0,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 1
+      propertyPath: healthPoints
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13453e2c5cafac243adf2ae37748d7c0, type: 3}
