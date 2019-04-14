@@ -1,34 +1,36 @@
-﻿using UnityEngine;
-using RPG.Movement;
-using System;
+﻿using System;
 using RPG.Combat;
+using RPG.Movement;
+using UnityEngine;
 
 namespace RPG.Control
 {
     public class PlayerController : MonoBehaviour
     {
+
         private void Update()
         {
-            if(InteractWithCombat()) return;
+            if (InteractWithCombat()) return;
             if (InteractWithMovement()) return;
-            print("Nothing to do!");
         }
 
         private bool InteractWithCombat()
         {
-            RaycastHit[] hits =  Physics.RaycastAll(GetMouseRay());
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
             foreach (RaycastHit hit in hits)
             {
                 CombatTarget target = hit.transform.GetComponent<CombatTarget>();
-                //if (target == null) continue;
-                if(!GetComponent<Fighter>().CanAttack(target))
+                if (target == null) continue;
+
+                GameObject targetGameObject = target.gameObject;
+                if (!GetComponent<Fighter>().CanAttack(target.gameObject))
                 {
                     continue;
                 }
 
                 if (Input.GetMouseButtonDown(0))
                 {
-                    GetComponent<Fighter>().Attack(target);                    
+                    GetComponent<Fighter>().Attack(target.gameObject);
                 }
                 return true;
             }
@@ -36,7 +38,7 @@ namespace RPG.Control
         }
 
         private bool InteractWithMovement()
-        {            
+        {
             RaycastHit hit;
             bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
             if (hasHit)
