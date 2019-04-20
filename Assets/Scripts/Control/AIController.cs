@@ -1,9 +1,9 @@
-﻿using RPG.Combat;
-using RPG.Core;
-using RPG.Movement;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using RPG.Combat;
+using RPG.Core;
+using RPG.Movement;
 using UnityEngine;
 
 namespace RPG.Control
@@ -17,8 +17,8 @@ namespace RPG.Control
 
         Fighter fighter;
         Health health;
-        GameObject player;
         Mover mover;
+        GameObject player;
 
         Vector3 guardPosition;
         float timeSinceLastSawPlayer = Mathf.Infinity;
@@ -43,7 +43,7 @@ namespace RPG.Control
                 timeSinceLastSawPlayer = 0;
                 AttackBehaviour();
             }
-            else  if (timeSinceLastSawPlayer < suspicionTime)
+            else if (timeSinceLastSawPlayer < suspicionTime)
             {
                 SuspicionBehaviour();
             }
@@ -59,9 +59,9 @@ namespace RPG.Control
         {
             Vector3 nextPosition = guardPosition;
 
-            if(patrolPath != null)
+            if (patrolPath != null)
             {
-                if(AtWaypoint())
+                if (AtWaypoint())
                 {
                     CycleWaypoint();
                 }

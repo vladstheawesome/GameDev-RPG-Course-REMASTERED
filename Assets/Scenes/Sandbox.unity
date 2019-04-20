@@ -343,11 +343,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 608635687010827937, guid: 7e0ef79fc1816804b880a7129dbef5a2,
         type: 3}
-      propertyPath: m_AngularSpeed
-      value: 2000
-      objectReference: {fileID: 0}
-    - target: {fileID: 608635687010827937, guid: 7e0ef79fc1816804b880a7129dbef5a2,
-        type: 3}
       propertyPath: m_StoppingDistance
       value: 1
       objectReference: {fileID: 0}
@@ -774,7 +769,7 @@ PrefabInstance:
     - target: {fileID: 7008100947348453135, guid: 13453e2c5cafac243adf2ae37748d7c0,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7008100947348453135, guid: 13453e2c5cafac243adf2ae37748d7c0,
         type: 3}
@@ -796,6 +791,11 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 7069661827665678847}
+    - target: {fileID: 1256195647172790138, guid: 13453e2c5cafac243adf2ae37748d7c0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13453e2c5cafac243adf2ae37748d7c0, type: 3}
 --- !u!1001 &685307835
