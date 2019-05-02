@@ -30,6 +30,7 @@ MonoBehaviour:
   suspicionTime: 5
   patrolPath: {fileID: 0}
   waypointTolerance: 1
+  waypointDwellTime: 3
 --- !u!114 &2544168296047857154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,12 +53,12 @@ PrefabInstance:
     - target: {fileID: 8069818635176003023, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6391787748472060341, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.760533
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 6391787748472060341, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
@@ -67,7 +68,7 @@ PrefabInstance:
     - target: {fileID: 6391787748472060341, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.6316957
+      value: -11.98
       objectReference: {fileID: 0}
     - target: {fileID: 6391787748472060341, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
@@ -109,14 +110,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
-      propertyPath: m_Speed
-      value: 2
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: healthPoints
-      value: 8
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
+      propertyPath: m_Speed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
