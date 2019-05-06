@@ -1656,6 +1656,7 @@ GameObject:
   - component: {fileID: 651776769}
   - component: {fileID: 651776770}
   - component: {fileID: 651776771}
+  - component: {fileID: 651776772}
   m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
@@ -1760,6 +1761,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1a595f95e7dfb14bbd4ef40ec2de815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &651776772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651776765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9deba6fe05f6c4aae29e2b50b0aaf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &670159882
@@ -2439,8 +2452,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210288104}
-  m_LocalRotation: {x: 0.08790951, y: -0.42415965, z: 0.04141425, w: 0.9003585}
-  m_LocalPosition: {x: 23.498814, y: 3.785707, z: -42.386864}
+  m_LocalRotation: {x: -0.6341146, y: 0.30387273, z: -0.29861334, w: -0.645283}
+  m_LocalPosition: {x: 15.20855, y: 10.517036, z: -35.540337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1040518534}
@@ -2500,7 +2513,7 @@ MonoBehaviour:
   collisionLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  distance: 5.62
+  distance: 12
   distanceSpeed: 150
   collisionOffset: 0.3
   minDistance: 4
@@ -3912,13 +3925,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133453140}
-  m_LocalRotation: {x: 0.08790951, y: -0.42415965, z: 0.04141425, w: 0.9003585}
-  m_LocalPosition: {x: 23.498814, y: 3.785707, z: -42.386864}
+  m_LocalRotation: {x: -0.6341146, y: 0.30387273, z: -0.29861334, w: -0.645283}
+  m_LocalPosition: {x: 15.20855, y: 10.517036, z: -35.540337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 901617583}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 5.7120004, y: -58.023003, z: 0}
+  m_LocalEulerAnglesHint: {x: 89.00001, y: -51, z: 0}
 --- !u!81 &2133453142
 AudioListener:
   m_ObjectHideFlags: 0
