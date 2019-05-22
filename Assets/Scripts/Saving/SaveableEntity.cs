@@ -8,7 +8,7 @@ using UnityEngine.AI;
 namespace RPG.Saving
 {
     [ExecuteAlways]
-    public class SaveableEntity : VuforiaMonoBehaviour
+    public class SaveableEntity : MonoBehaviour
     {
         [SerializeField] string uniqueIdentifier = "";
         static Dictionary<string, SaveableEntity> globalLookUp = new Dictionary<string, SaveableEntity>();
@@ -41,6 +41,7 @@ namespace RPG.Saving
             }            
         }
 
+#if UNITY_EDITOR
         private void Update()
         {
             if (Application.IsPlaying(gameObject)) return;
@@ -57,6 +58,7 @@ namespace RPG.Saving
 
             globalLookUp[property.stringValue] = this;
         }
+#endif
 
         private bool IsUnique(string candidate)
         {
