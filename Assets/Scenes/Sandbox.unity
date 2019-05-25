@@ -435,7 +435,7 @@ Animator:
 Light:
   m_CorrespondingSourceObject: {fileID: 6584822579118004072, guid: 576130d0515d85943a05b6944dc33688,
     type: 3}
-  m_PrefabInstance: {fileID: 2171689062443439835}
+  m_PrefabInstance: {fileID: 6893449738958771962}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &171777620
 PrefabInstance:
@@ -4362,7 +4362,7 @@ Transform:
   m_Father: {fileID: 1783841312}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2171689062443439835
+--- !u!1001 &6893449738958771962
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4377,7 +4377,7 @@ PrefabInstance:
     - target: {fileID: 6584822578539555577, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 6584822578539555577, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
@@ -4387,7 +4387,7 @@ PrefabInstance:
     - target: {fileID: 6584822578539555577, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 16.18
       objectReference: {fileID: 0}
     - target: {fileID: 6584822578539555577, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
