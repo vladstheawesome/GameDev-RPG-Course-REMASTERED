@@ -4429,6 +4429,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4955171645320653843, guid: 576130d0515d85943a05b6944dc33688,
+        type: 3}
+      propertyPath: weaponOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: ac5a7e58a447b1f41a80eec73ba2e8e1,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 576130d0515d85943a05b6944dc33688, type: 3}
 --- !u!1 &7069661827329890500

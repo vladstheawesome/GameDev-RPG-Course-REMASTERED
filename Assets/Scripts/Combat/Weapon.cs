@@ -7,8 +7,8 @@ namespace RPG.Combat
     {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
         [SerializeField] GameObject equippedPrefab = null;
-        [SerializeField] float weaponDamage = 5f;
-        [SerializeField] float weaponRange = 2f;        
+        //[SerializeField] float weaponDamage = 5f;
+        //[SerializeField] float weaponRange = 2f;        
 
         public void Spawn(Transform handTransform, Animator animator)
         {
@@ -22,14 +22,14 @@ namespace RPG.Combat
             }
         }
 
-        public float GetDamage()
-        {
-            return weaponDamage;
-        }
+        //public float GetDamage()
+        //{
+        //    return weaponDamage;
+        //}
 
-        public float GetRange()
-        {
-            return weaponRange;
-        }
+        //public float GetRange()
+        //{
+        //    return weaponRange;
+        //}
     }
 }
