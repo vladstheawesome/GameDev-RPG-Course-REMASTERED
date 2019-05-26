@@ -98,6 +98,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: weaponDamage
@@ -130,8 +140,18 @@ PrefabInstance:
         type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 753822b2e1b239c42af4eff0618fce1d,
+      objectReference: {fileID: 11400000, guid: eb12b9f7e140662428dcece1789782ff,
         type: 2}
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 3261748186915496065}
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 3262032037787661195}
     - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: healthPoints
@@ -143,16 +163,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -231,6 +241,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
+--- !u!4 &3262032037787661195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4192275016468322, guid: 0efdb17bca1c4374eb6496797d95af12,
+    type: 3}
+  m_PrefabInstance: {fileID: 3263970639780689129}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3261748186915496065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4497763416003688, guid: 0efdb17bca1c4374eb6496797d95af12,
