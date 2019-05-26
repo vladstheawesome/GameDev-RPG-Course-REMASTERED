@@ -1306,6 +1306,12 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: 219c3149-2a13-4a53-8e63-4dc6810e08a9
       objectReference: {fileID: 0}
+    - target: {fileID: 2206572130987054700, guid: 13453e2c5cafac243adf2ae37748d7c0,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 94b724c7225cbd449bb0f54a5050f496,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13453e2c5cafac243adf2ae37748d7c0, type: 3}
 --- !u!1001 &506954633
@@ -1630,6 +1636,12 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: bc34afc4-ed3a-46f8-a257-1e4367be3d0a
       objectReference: {fileID: 0}
+    - target: {fileID: 2206572130987054700, guid: 13453e2c5cafac243adf2ae37748d7c0,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: eb12b9f7e140662428dcece1789782ff,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13453e2c5cafac243adf2ae37748d7c0, type: 3}
 --- !u!4 &603425040 stripped
