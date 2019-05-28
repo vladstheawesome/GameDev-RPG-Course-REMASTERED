@@ -22,7 +22,7 @@ PrefabInstance:
     - target: {fileID: 8069818635176003023, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_Name
-      value: Player F
+      value: Player Female
       objectReference: {fileID: 0}
     - target: {fileID: 6391787748472060341, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
@@ -79,6 +79,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 3780301722525419113}
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 3776691702175156619}
+    - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: ee9e086274e45ab42b3a5cadff8af2f8,
+        type: 2}
     - target: {fileID: 1830364848, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
       propertyPath: m_Avatar
       value: 
@@ -157,5 +173,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1874683007575054, guid: e053437d55c4703498cecdbc61c4fb65, type: 3}
+      propertyPath: m_Name
+      value: PT_Medieval_Female_Left_Hand_Weapon_slot1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e053437d55c4703498cecdbc61c4fb65, type: 3}
+--- !u!4 &3776691702175156619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4860894164041410, guid: e053437d55c4703498cecdbc61c4fb65,
+    type: 3}
+  m_PrefabInstance: {fileID: 3780989465852442441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3780301722525419113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4100636019536160, guid: e053437d55c4703498cecdbc61c4fb65,
+    type: 3}
+  m_PrefabInstance: {fileID: 3780989465852442441}
+  m_PrefabAsset: {fileID: 0}
