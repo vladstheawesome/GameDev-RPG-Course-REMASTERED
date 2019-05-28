@@ -191,6 +191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  isHoming: 1
+  hitEffect: {fileID: 3410850188388807479, guid: 4ec450e032111994a91ee822966b0a68,
+    type: 3}
 --- !u!65 &3601605197463539650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -259,12 +262,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 23203778617418920, guid: 89544aadcc667284c9ab807a9cbf2697,
+    - target: {fileID: 95665578771653960, guid: 89544aadcc667284c9ab807a9cbf2697,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 95665578771653960, guid: 89544aadcc667284c9ab807a9cbf2697,
+    - target: {fileID: 23203778617418920, guid: 89544aadcc667284c9ab807a9cbf2697,
         type: 3}
       propertyPath: m_Enabled
       value: 1

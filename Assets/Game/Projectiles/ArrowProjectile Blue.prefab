@@ -17,6 +17,12 @@ PrefabInstance:
       propertyPath: isHoming
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8254988348465493267, guid: 2519793242cee9a46989b12acf15431e,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 3410850188388807479, guid: 4ec450e032111994a91ee822966b0a68,
+        type: 3}
     - target: {fileID: 4096467028492422604, guid: 2519793242cee9a46989b12acf15431e,
         type: 3}
       propertyPath: m_LocalPosition.x
