@@ -4864,5 +4864,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3513288565101126516, guid: 576130d0515d85943a05b6944dc33688,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 753822b2e1b239c42af4eff0618fce1d,
+        type: 2}
+    - target: {fileID: 3513288565101126516, guid: 576130d0515d85943a05b6944dc33688,
+        type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 576130d0515d85943a05b6944dc33688, type: 3}
