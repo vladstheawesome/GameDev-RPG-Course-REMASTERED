@@ -98,6 +98,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: characterClass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: startingLevel
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_Mass
@@ -170,11 +180,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: characterClass
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
 --- !u!1 &7462341044184173589 stripped
@@ -199,6 +204,11 @@ PrefabInstance:
     - target: {fileID: 1917351910029454, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
       propertyPath: m_Name
       value: PT_Medieval_Knight_03_a
+      objectReference: {fileID: 0}
+    - target: {fileID: 95951595600969910, guid: 0efdb17bca1c4374eb6496797d95af12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4733007123748690, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -242,11 +252,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4733007123748690, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95951595600969910, guid: 0efdb17bca1c4374eb6496797d95af12,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
