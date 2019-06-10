@@ -26,6 +26,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bab2696f1bbb064d8d83d6c9bda9af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3549879232949874371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462341044184173589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2796a73d5d814e041a194f23e33822c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experiencePoints: 0
 --- !u!1001 &608635685973527002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,11 +218,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PT_Medieval_Knight_03_a
       objectReference: {fileID: 0}
-    - target: {fileID: 95951595600969910, guid: 0efdb17bca1c4374eb6496797d95af12,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4733007123748690, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -252,6 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4733007123748690, guid: 0efdb17bca1c4374eb6496797d95af12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95951595600969910, guid: 0efdb17bca1c4374eb6496797d95af12,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
