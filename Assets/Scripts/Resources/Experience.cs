@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.Scripts.Resources
+namespace RPG.Resources
 {
     public class Experience : MonoBehaviour
     {
