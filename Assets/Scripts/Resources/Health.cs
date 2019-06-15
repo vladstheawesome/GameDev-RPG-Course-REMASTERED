@@ -1,9 +1,7 @@
-﻿using RPG.Core;
+﻿using System;
+using RPG.Core;
 using RPG.Saving;
 using RPG.Stats;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace RPG.Resources
@@ -27,7 +25,7 @@ namespace RPG.Resources
         public void TakeDamage(GameObject instigator, float damage)
         {
             healthPoints = Mathf.Max(healthPoints - damage, 0);
-            if(healthPoints == 0)
+            if (healthPoints == 0)
             {
                 Die();
                 AwardExperience(instigator);
@@ -65,7 +63,7 @@ namespace RPG.Resources
         {
             healthPoints = (float)state;
 
-            if(healthPoints <= 0 )
+            if (healthPoints <= 0)
             {
                 Die();
             }
