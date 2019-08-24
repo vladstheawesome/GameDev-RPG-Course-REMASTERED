@@ -127,6 +127,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1907447096466401435, guid: c33ec92344689f14abcb68048d1c35fc,
         type: 3}
+    - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_Mass
