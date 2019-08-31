@@ -1,7 +1,7 @@
 ﻿using System;
 using RPG.Combat;
 using RPG.Movement;
-using RPG.Resources;
+using RPG.Attributes;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
@@ -134,7 +134,7 @@ namespace RPG.Control
             {
                 total += Vector3.Distance(path.corners[i], path.corners[i + 1]);
             }
-            print("Total path length: " + total);
+            //print("Total path length: " + total);
 
             return total;
         }

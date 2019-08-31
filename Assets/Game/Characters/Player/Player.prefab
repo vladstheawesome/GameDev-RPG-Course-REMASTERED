@@ -55,6 +55,8 @@ MonoBehaviour:
   - type: 4
     texture: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
     hotspot: {x: 0, y: 0}
+  maxNavMeshProjectionDistance: 1
+  maxNavPathLength: 40
 --- !u!1001 &608635685973527002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -219,6 +221,16 @@ PrefabInstance:
     - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5598905155165670424, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5598905155165670424, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
