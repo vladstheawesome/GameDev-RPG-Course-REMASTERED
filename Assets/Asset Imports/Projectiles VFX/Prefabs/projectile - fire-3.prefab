@@ -17832,7 +17832,7 @@ GameObject:
   - component: {fileID: 198483927647979942}
   - component: {fileID: 199475090798125590}
   m_Layer: 0
-  m_Name: projectile - fire-2
+  m_Name: projectile - fire-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

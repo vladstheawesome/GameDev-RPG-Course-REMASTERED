@@ -105,8 +105,8 @@ MonoBehaviour:
   minDistance: 4
   maxDistance: 12
   height: 2.3
-  horizontalRotationSpeed: 250
-  verticalRotationSpeed: 150
+  horizontalRotationSpeed: 120
+  verticalRotationSpeed: 60
   rotationDampening: 0.75
   minVerticalAngle: -60
   maxVerticalAngle: 60
