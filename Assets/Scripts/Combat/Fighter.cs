@@ -80,7 +80,7 @@ namespace RPG.Combat
             {
                 // This will trigger the Hit() event.
                 TriggerAttack();
-                timeSinceLastAttack = 0;
+                timeSinceLastAttack = 0; // Reset auto attack
             }
         }
 
