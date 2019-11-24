@@ -497,6 +497,18 @@ Transform:
   m_Father: {fileID: 793625896269959352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5233095912939683893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8132104841772162007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e26aaabfd7fb74c81a5af8aa101883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7728687327677285417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,18 +527,6 @@ MonoBehaviour:
   waypointTolerance: 1
   waypointDwellTime: 3
   patrolSpeedFraction: 0.2
---- !u!114 &5233095912939683893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8132104841772162007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56e26aaabfd7fb74c81a5af8aa101883, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2291497653815006114
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,6 +2853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: progession
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}

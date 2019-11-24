@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using RPG.Movement;
 using RPG.Core;
-using System;
 using RPG.Saving;
 using RPG.Attributes;
 using RPG.Stats;
 using System.Collections.Generic;
 using GameDevTV.Utils;
+using System;
 
 namespace RPG.Combat
 {
@@ -19,7 +19,7 @@ namespace RPG.Combat
 
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
-        WeaponConfig currentWeaponConfig = null;
+        WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
         private void Awake()
@@ -30,7 +30,7 @@ namespace RPG.Combat
 
         private Weapon SetupDefaultWeapon()
         {
-            return AttachWeapon(defaultWeapon);            
+            return AttachWeapon(defaultWeapon);
         }
 
         private void Start()
@@ -80,7 +80,7 @@ namespace RPG.Combat
             {
                 // This will trigger the Hit() event.
                 TriggerAttack();
-                timeSinceLastAttack = 0; // Reset auto attack
+                timeSinceLastAttack = 0;
             }
         }
 
@@ -108,7 +108,6 @@ namespace RPG.Combat
             }
             else
             {
-                
                 target.TakeDamage(gameObject, damage);
             }
         }
@@ -126,6 +125,7 @@ namespace RPG.Combat
         public bool CanAttack(GameObject combatTarget)
         {
             if (combatTarget == null) { return false; }
+            if (!GetComponent<Mover>().CanMoveTo(combatTarget.transform.position)) { return false; }
             Health targetToTest = combatTarget.GetComponent<Health>();
             return targetToTest != null && !targetToTest.IsDead();
         }

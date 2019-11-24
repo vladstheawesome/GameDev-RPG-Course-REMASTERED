@@ -1,8 +1,11 @@
-﻿using RPG.Control;
+﻿using RPG.Combat;
+using RPG.Control;
+using RPG.Attributes;
 using UnityEngine;
 
-namespace Assets.Scripts.Combat
+namespace RPG.Combat
 {
+    
     public class NpcTarget : MonoBehaviour, IRaycastable
     {
         public CursorType GetCursorType()
@@ -12,7 +15,15 @@ namespace Assets.Scripts.Combat
 
         public bool HandleRaycast(PlayerController callingController)
         {
-            throw new System.NotImplementedException();
+            if (!callingController.GetComponent<Fighter>().CanAttack(gameObject))
+            {
+                return false;
+            }
+            if (Input.GetMouseButton(0))
+            {
+                callingController.GetComponent<Fighter>().Attack(gameObject);
+            }
+            return false;
         }
     }
 }

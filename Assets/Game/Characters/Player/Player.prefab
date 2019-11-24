@@ -41,19 +41,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorMappings:
   - type: 0
-    texture: {fileID: 2800000, guid: 21628736160fcc9488493401da3ef621, type: 3}
+    texture: {fileID: 2800000, guid: 0830540d5fa99294d9e5c14e8ea4c0e6, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 1
-    texture: {fileID: 2800000, guid: 8ea795c067613354898068091ffc7130, type: 3}
+    texture: {fileID: 2800000, guid: 20c0f946593f0da42ad8dc8698815ba2, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 2
-    texture: {fileID: 2800000, guid: 2d18e23e3ce249b4489b8bcdd02d3f48, type: 3}
+    texture: {fileID: 2800000, guid: de99b41e4b96b564d9f5889ce8d22d75, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 3
     texture: {fileID: 2800000, guid: 89f40d0702ab04b4eaa85fc24b20959b, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 4
-    texture: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
+    texture: {fileID: 2800000, guid: a818ff105acfdce45b88c86a7e8fd91f, type: 3}
+    hotspot: {x: 0, y: 0}
+  - type: 5
+    texture: {fileID: 2800000, guid: b3eebbf12e0048f4286b19932b806fd6, type: 3}
     hotspot: {x: 0, y: 0}
   maxNavMeshProjectionDistance: 1
   maxNavPathLength: 40
@@ -139,6 +142,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: characterClass
@@ -158,21 +176,6 @@ PrefabInstance:
     - target: {fileID: 6987674130296895313, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: shouldUseModifiers
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7067168566655625286, guid: 83786d99c90616d4c85c3e962d6cb95c,
-        type: 3}
-      propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9213967946651080216, guid: 83786d99c90616d4c85c3e962d6cb95c,

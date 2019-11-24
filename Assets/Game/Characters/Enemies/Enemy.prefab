@@ -114,7 +114,7 @@ PrefabInstance:
     - target: {fileID: 5598905155165670424, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5598905155165670424, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
@@ -160,8 +160,38 @@ PrefabInstance:
       objectReference: {fileID: 8484145903019634075}
     - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
       propertyPath: healthPoints
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1256195647172790138}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
       propertyPath: m_Speed
