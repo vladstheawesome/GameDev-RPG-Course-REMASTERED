@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 4551127098255545695}
   - component: {fileID: 7067168566655625286}
   - component: {fileID: 6987674130296895313}
+  - component: {fileID: 2572497483691641720}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -293,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 6391787748472060341}
   maxSpeed: 6
+  maxNavPathLength: 40
 --- !u!114 &9213967946651080216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,6 +425,18 @@ MonoBehaviour:
   progession: {fileID: 11400000, guid: b26a532d9f7c7cc4f8a75b053b4bcc16, type: 2}
   levelUpParticleEffect: {fileID: 0}
   shouldUseModifiers: 0
+--- !u!114 &2572497483691641720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069818635176003023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a65c0f4377788747b0923d05a2fe9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8549004902261533319
 GameObject:
   m_ObjectHideFlags: 0

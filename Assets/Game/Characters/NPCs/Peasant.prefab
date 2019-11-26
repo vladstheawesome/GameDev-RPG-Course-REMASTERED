@@ -523,10 +523,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 3
+  agroCoolDownTime: 5
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
   patrolSpeedFraction: 0.2
+  shoutDistance: 5
 --- !u!1 &2291497653815006114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,7 +1230,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4404630634697562046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: acd8283a962e1df42ae5aa36b8c7d109, type: 3}
   m_Controller: {fileID: 9100000, guid: 3244fa875fe4385468bc1782ada67391, type: 2}
   m_CullingMode: 1

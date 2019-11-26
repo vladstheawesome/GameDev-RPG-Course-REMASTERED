@@ -22,7 +22,7 @@ namespace RPG.Control
 
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance = 1f;
-        [SerializeField] float raycastRadius = 0.2f;
+        [SerializeField] float raycastRadius = 0.6f;
 
         private void Awake()
         {

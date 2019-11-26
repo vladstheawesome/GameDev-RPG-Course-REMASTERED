@@ -315,6 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 15
   suspicionTime: 5
+  agroCooldownTime: 5
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
@@ -1738,7 +1739,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7275449837162532088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 800b61af02539cb488307a1caa2e1bfa, type: 3}
   m_Controller: {fileID: 9100000, guid: a335014c00e0a474f8d81c16dc585a9a, type: 2}
   m_CullingMode: 1
@@ -2694,8 +2695,38 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
       propertyPath: healthPoints
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 9014015801249640945}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Aggrevate
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1173616507, guid: 83786d99c90616d4c85c3e962d6cb95c, type: 3}
       propertyPath: m_Speed
