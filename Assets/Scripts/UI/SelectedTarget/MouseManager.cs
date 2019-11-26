@@ -28,7 +28,7 @@ public class MouseManager : MonoBehaviour
 
             RaycastHit hitInfo;
 
-            if (Physics.Raycast(ray, out hitInfo) && fighter.GetTarget() != null /*&& Input.GetMouseButton(0)*/)
+            if (Physics.Raycast(ray, out hitInfo) && fighter.GetTarget() != null)
             {
                 GameObject hitObject = hitInfo.transform.gameObject;
 
@@ -74,7 +74,6 @@ public class MouseManager : MonoBehaviour
             m.color = Color.white;
             r.material = m;
         }
-
 
         selectedObject = null;
     }

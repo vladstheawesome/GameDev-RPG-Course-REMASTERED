@@ -17,14 +17,14 @@ public class SelectionIndicator : MonoBehaviour
     {
         if (mm.selectedObject != null)
         {
-            Bounds bigBounds = mm.selectedObject.GetComponentInChildren<Renderer>().bounds;
+            //Bounds bigBounds = mm.selectedObject.GetComponentInChildren<Renderer>().bounds;
 
-            // This "diameter" only works correctly for relatively circular or square objects
-            float diameter = bigBounds.size.z;
-            diameter *= 3.25f;
+            //// This "diameter" only works correctly for relatively circular or square objects
+            //float diameter = bigBounds.size.z;
+            //diameter *= 3.25f;
 
-            this.transform.position = new Vector3(bigBounds.center.x, 0, bigBounds.center.z);
-            this.transform.localScale = new Vector3(bigBounds.size.x, bigBounds.size.y, bigBounds.size.z);
+            //this.transform.position = new Vector3(bigBounds.center.x, 0, bigBounds.center.z);
+            //this.transform.localScale = new Vector3(bigBounds.size.x, bigBounds.size.y, bigBounds.size.z);
 
             this.transform.position = mm.selectedObject.transform.position;
         }
