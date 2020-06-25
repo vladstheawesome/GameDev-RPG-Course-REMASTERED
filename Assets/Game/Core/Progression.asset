@@ -270,3 +270,9 @@ MonoBehaviour:
       - 544
       - 576
       - 608
+  - characterClass: 5
+    stats:
+    - stat: 0
+      levels:
+      - 9999
+      - 10000

@@ -68,8 +68,8 @@ namespace RPG.Core
         /* This is where we do all our camera updates. This is where the camera
          * gets all of its functionality. From setting the position and rotation,
          * to adjusting the camera to avoid geometry clipping */
-        //void LateUpdate()
-        void FixedUpdate()
+        void LateUpdate()
+        //void FixedUpdate()
         {
             if (!viewTarget)
                 return;

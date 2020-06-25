@@ -6,6 +6,7 @@
         Grunt,
         Mage,
         Archer,
-        Peasant
+        Peasant,
+        Training_Dummy
     }
 }
