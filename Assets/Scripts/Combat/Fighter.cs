@@ -168,6 +168,8 @@ namespace RPG.Combat
         public object CaptureState()
         {
             return currentWeaponConfig.name;
+
+            //return null;
         }
 
         public void RestoreState(object state)

@@ -28,7 +28,7 @@ namespace RPG.Core
             {
                 // RotateCamera();
 
-                transform.RotateAround(target.position, Vector3.up, speed * Time.deltaTime);
+                // transform.RotateAround(target.position, Vector3.up, speed * Time.deltaTime);
             }
         }
 
