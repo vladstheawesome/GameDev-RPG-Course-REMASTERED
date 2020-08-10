@@ -7,6 +7,7 @@
         Combat,
         UI,
         Pickup,
-        NPC
+        NPC,
+        FullPickup,
     }
 }
