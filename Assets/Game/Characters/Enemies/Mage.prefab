@@ -3800,12 +3800,12 @@ PrefabInstance:
     - target: {fileID: 1094456927319470379, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2350783167483422019, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2677788325702412897, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
@@ -3815,6 +3815,11 @@ PrefabInstance:
     - target: {fileID: 2683992804282795453, guid: 83786d99c90616d4c85c3e962d6cb95c,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622833986029812837, guid: 83786d99c90616d4c85c3e962d6cb95c,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4603081185613318835, guid: 83786d99c90616d4c85c3e962d6cb95c,

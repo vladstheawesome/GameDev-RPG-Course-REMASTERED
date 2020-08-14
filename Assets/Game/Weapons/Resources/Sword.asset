@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72344cf80603d8b4f8aad92328dcdd9a, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
+  itemID: 08a6b953-8bb4-46d9-ad45-c90f8ad06b8b
+  displayName: Westfall Sword
+  description: 
+  icon: {fileID: 21300000, guid: 5fd50594014b70e48bd6993443d46b32, type: 3}
+  pickup: {fileID: 727567723388728584, guid: 1452b8bd1e7a6e641a4ce783502d1079, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
   animatorOverride: {fileID: 22100000, guid: ac5a7e58a447b1f41a80eec73ba2e8e1, type: 2}
   equippedPrefab: {fileID: 1457549490666016501, guid: d99645ce0bc2ddf4ca40e129379a012e,
     type: 3}

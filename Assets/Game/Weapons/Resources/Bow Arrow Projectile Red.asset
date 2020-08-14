@@ -12,6 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72344cf80603d8b4f8aad92328dcdd9a, type: 3}
   m_Name: Bow Arrow Projectile Red
   m_EditorClassIdentifier: 
+  itemID: 178ae686-7b19-4115-95b5-7c8b6ba0b23f
+  displayName: Red Fire Bow
+  description: 
+  icon: {fileID: 21300000, guid: 5d7061fc7da05ce44add317708ec7215, type: 3}
+  pickup: {fileID: 1892828261203053539, guid: f7b2aee13596baa4183e67c342d16319, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
   animatorOverride: {fileID: 22100000, guid: 73b49eb8e2ad003439c00bf107d6ba16, type: 2}
   equippedPrefab: {fileID: 7115194756657338232, guid: 930b64b3d4118c84c80419dd8dcb8019,
     type: 3}
