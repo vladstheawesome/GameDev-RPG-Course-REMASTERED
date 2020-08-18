@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace RPG.Inventories
 {
+    public enum ItemRarity { Generic, White, Green, Blue, Purple }
+
     /// <summary>
     /// A ScriptableObject that represents any item that can be put in an
     /// inventory.
@@ -19,6 +21,10 @@ namespace RPG.Inventories
         [SerializeField] string itemID = null;
         [Tooltip("Item name to be displayed in UI.")]
         [SerializeField] string displayName = null;
+        [Tooltip("Sub Title to be displayed in UI.")]
+        [SerializeField] string subTitleLeft = null;
+        [SerializeField] string subTitleRight = null;
+        [SerializeField] string statsInfo = null;
         [Tooltip("Item description to be displayed in UI.")]
         [SerializeField][TextArea] string description = null;
         [Tooltip("The UI icon to represent this item in the inventory.")]
@@ -27,6 +33,8 @@ namespace RPG.Inventories
         [SerializeField] Pickup pickup = null;
         [Tooltip("If true, multiple items of this type can be stacked in the same inventory slot.")]
         [SerializeField] bool stackable = false;
+
+        public ItemRarity itemRarity;
 
         // STATE
         static Dictionary<string, InventoryItem> itemLookupCache;
@@ -98,13 +106,28 @@ namespace RPG.Inventories
             return displayName;
         }
 
+        public string GetSubTitleLeft()
+        {
+            return subTitleLeft;
+        }
+
+        public string GetSubTitleRight()
+        {
+            return subTitleRight;
+        }
+
         public string GetDescription()
         {
             return description;
         }
 
+        public string GetStatsInfo()
+        {
+            return statsInfo;
+        }
+
         // PRIVATE
-        
+
         void ISerializationCallbackReceiver.OnBeforeSerialize()
         {
             // Generate and save a new UUID if this is blank.

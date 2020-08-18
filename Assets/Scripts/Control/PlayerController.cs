@@ -5,6 +5,7 @@ using RPG.Attributes;
 using System;
 using UnityEngine.EventSystems;
 using UnityEngine.AI;
+using RPG.Inventories;
 
 namespace RPG.Control
 {
@@ -25,6 +26,7 @@ namespace RPG.Control
         [SerializeField] float raycastRadius = 0.6f;
 
         bool isDraggingUI = false;
+        bool movementStarted = false;
 
         private void Awake()
         {
@@ -33,17 +35,52 @@ namespace RPG.Control
 
         private void Update()
         {
-            if (InteractWithUI()) return;
+            CheckSpecialAbilityKeys();
+            if (Input.GetMouseButtonUp(0))
+            {
+                movementStarted = false;
+            }
+
             if (health.IsDead())
             {
                 SetCursor(CursorType.None);
                 return;
             }
 
+            if (InteractWithUI()) return;
             if (InteractWithComponent()) return;
             if (InteractWithMovement()) return;
 
             SetCursor(CursorType.None);
+        }
+
+        private void CheckSpecialAbilityKeys()
+        {
+            var actionStore = GetComponent<ActionStore>();
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                actionStore.Use(0, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                actionStore.Use(1, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                actionStore.Use(2, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                actionStore.Use(3, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                actionStore.Use(4, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                actionStore.Use(5, gameObject);
+            }
         }
 
         private bool InteractWithUI()
@@ -107,6 +144,10 @@ namespace RPG.Control
                 if (!GetComponent<Mover>().CanMoveTo(target)) return false;
 
                 if (Input.GetMouseButton(0))
+                {
+                    GetComponent<Mover>().StartMoveAction(target, 1f);
+                }
+                if (Input.GetMouseButton(0) && movementStarted)
                 {
                     GetComponent<Mover>().StartMoveAction(target, 1f);
                 }

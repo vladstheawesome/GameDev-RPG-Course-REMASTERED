@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Hat
   m_EditorClassIdentifier: 
   itemID: 3df22914-253e-4983-8478-a953b3525fa0
-  displayName: Hat
+  displayName: Ancient Hat
+  subTitleLeft: Head
+  subTitleRight: Cloth
+  statsInfo: 
   description: This is a description
   icon: {fileID: 21300000, guid: fd6e4fc32c78509458fc45ea4a478ba8, type: 3}
   pickup: {fileID: -5052075606713177355, guid: e4c9c7df14d48934094f709ec5424794, type: 3}
