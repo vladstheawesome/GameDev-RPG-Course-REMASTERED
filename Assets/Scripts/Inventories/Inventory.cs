@@ -14,7 +14,7 @@ namespace RPG.Inventories
     {
         // CONFIG DATA
         [Tooltip("Allowed size")]
-        [SerializeField] int inventorySize = 16;
+        [SerializeField] int inventorySize = 12;
 
         // STATE
         InventorySlot[] slots;

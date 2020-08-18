@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Healing Hat
   m_EditorClassIdentifier: 
   itemID: 4aa1e1d5-7031-4631-a826-604a7a781df2
-  displayName: Healing Hat
+  displayName: Helm of Sanctity
   description: 
-  icon: {fileID: 21300000, guid: c1b61b3a91732a747a8496fc75a13fe2, type: 3}
+  icon: {fileID: 21300000, guid: 48552eac0df73d74187f395cc894a545, type: 3}
   pickup: {fileID: -5052075606713177355, guid: e4c9c7df14d48934094f709ec5424794, type: 3}
   stackable: 0
   allowedEquipLocation: 0

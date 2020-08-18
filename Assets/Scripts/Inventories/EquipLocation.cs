@@ -15,5 +15,7 @@ namespace RPG.Inventories
         Weapon,
         Shield,
         Gloves,
+        Bracers,
+        Trinkets
     }
 }
