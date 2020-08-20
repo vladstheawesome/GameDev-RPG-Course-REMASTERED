@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Minor Health Potion
   m_EditorClassIdentifier: 
   itemID: 95bb4264-d233-4cc2-8b01-6b95b7cf334d
-  displayName: Minor Health Potion
+  displayName: MINOR HEALTH POTION
   subTitleLeft: Potion
   subTitleRight: Consumable
   statsInfo: Instant Use

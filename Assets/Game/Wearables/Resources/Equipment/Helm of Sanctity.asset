@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helm of Sanctity
   m_EditorClassIdentifier: 
   itemID: 4aa1e1d5-7031-4631-a826-604a7a781df2
-  displayName: Helm of Sanctity
+  displayName: HELM OF SANCTITY
   subTitleLeft: Head
   subTitleRight: Plate
   statsInfo: +5 Stamina

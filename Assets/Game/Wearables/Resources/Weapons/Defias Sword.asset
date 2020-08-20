@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Defias Sword
   m_EditorClassIdentifier: 
   itemID: 9e181f76-902f-4de2-a6af-d43a689c37e5
-  displayName: Defias Sword
+  displayName: DEFIAS SWORD
   subTitleLeft: Weapon
   subTitleRight: Sword
   statsInfo: + 5 Weapon Damage
