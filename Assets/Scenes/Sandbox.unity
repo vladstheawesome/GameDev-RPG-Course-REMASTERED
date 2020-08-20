@@ -6656,7 +6656,7 @@ PrefabInstance:
     - target: {fileID: 6689768871281300392, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -657.1251
+      value: -657.12506
       objectReference: {fileID: 0}
     - target: {fileID: 6689768871281300392, guid: 576130d0515d85943a05b6944dc33688,
         type: 3}
@@ -37994,7 +37994,7 @@ PrefabInstance:
     - target: {fileID: 114961008860332776, guid: bc4f23d04e42f4b559542ad840db6530,
         type: 3}
       propertyPath: waterQuality
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114961008860332776, guid: bc4f23d04e42f4b559542ad840db6530,
         type: 3}
@@ -51056,8 +51056,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878571192}
-  m_LocalRotation: {x: 0.095443286, y: 0.7459776, z: 0.1095487, w: -0.64992857}
-  m_LocalPosition: {x: 254.05942, y: -15.376993, z: 158.47159}
+  m_LocalRotation: {x: 0.1871644, y: 0.65796804, z: 0.17384666, w: -0.708396}
+  m_LocalPosition: {x: 248.76056, y: -10.469147, z: 144.39725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1524407037}
