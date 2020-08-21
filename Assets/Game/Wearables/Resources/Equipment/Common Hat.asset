@@ -17,6 +17,7 @@ MonoBehaviour:
   subTitleLeft: Head
   subTitleRight: Cloth
   statsInfo: +1 Stamina
+  typeImage: {fileID: 21300000, guid: 724edc1590784ca4682e4243726d8c55, type: 3}
   description: "Equip: Adds 4 health points to your health\t"
   icon: {fileID: 21300000, guid: 259989c5f3db16b468b04a4000c2e1c4, type: 3}
   pickup: {fileID: -5052075606713177355, guid: e4c9c7df14d48934094f709ec5424794, type: 3}

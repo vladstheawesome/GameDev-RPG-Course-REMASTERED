@@ -17,6 +17,7 @@ MonoBehaviour:
   subTitleLeft: Head
   subTitleRight: Plate
   statsInfo: +5 Stamina
+  typeImage: {fileID: 21300000, guid: 724edc1590784ca4682e4243726d8c55, type: 3}
   description: "Equip: Adds 20 health points to your health\t"
   icon: {fileID: 21300000, guid: 48552eac0df73d74187f395cc894a545, type: 3}
   pickup: {fileID: -5052075606713177355, guid: e4c9c7df14d48934094f709ec5424794, type: 3}

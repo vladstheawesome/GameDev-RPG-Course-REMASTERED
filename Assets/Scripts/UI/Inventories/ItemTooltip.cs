@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using RPG.Inventories;
+using UnityEngine.UI;
 
 namespace RPG.UI.Inventories
 {
@@ -15,6 +16,7 @@ namespace RPG.UI.Inventories
         [SerializeField] TextMeshProUGUI statsText = null;
         [SerializeField] TextMeshProUGUI subLeft = null;
         [SerializeField] TextMeshProUGUI subRight = null;
+        [SerializeField] Image itemType = null;
 
         // PUBLIC
 
@@ -25,71 +27,44 @@ namespace RPG.UI.Inventories
             subLeft.text = item.GetSubTitleLeft();
             subRight.text = item.GetSubTitleRight();
             statsText.text = item.GetStatsInfo();
-            //titleText.color = ItemRarityTitle(item);
+            titleText.color = SetTitleColorRarity(item);
+            itemType.sprite = item.GetToolTipTypeImage();
+        }
+
+        // PRIVATE
+
+        private Color SetTitleColorRarity(InventoryItem item)
+        {
+            Color titleColor = Color.white;
 
             if (item.itemRarity.ToString() == ItemRarity.Generic.ToString()
-                            || item.itemRarity.ToString() == ItemRarity.White.ToString())
+                                        || item.itemRarity.ToString() == ItemRarity.White.ToString())
             {
-                titleText.color = Color.white;
+                titleColor = Color.white;
             }
 
             if (item.itemRarity.ToString() == ItemRarity.Green.ToString())
             {
                 Color greenHexColor;
                 ColorUtility.TryParseHtmlString("#08ac27", out greenHexColor);
-                titleText.color = greenHexColor;
+                titleColor = greenHexColor;
             }
 
             if (item.itemRarity.ToString() == ItemRarity.Blue.ToString())
             {
                 Color blueHexColor;
                 ColorUtility.TryParseHtmlString("#035bde", out blueHexColor);
-                titleText.color = blueHexColor;
+                titleColor = blueHexColor;
             }
 
             if (item.itemRarity.ToString() == ItemRarity.Purple.ToString())
             {
                 Color purpleHexColor;
                 ColorUtility.TryParseHtmlString("#701da9", out purpleHexColor);
-                titleText.color = Color.magenta;
+                titleColor = Color.magenta;
             }
+
+            return titleColor;
         }
-
-        #region
-        //private Color ItemRarityTitle(InventoryItem item)
-        //{
-        //    Color color = Color.white; // Default Color
-
-        //    if (item.itemRarity.ToString() == ItemRarity.Generic.ToString()
-        //                    || item.itemRarity.ToString() == ItemRarity.White.ToString())
-        //    {
-        //        var whiteColor = Color.white;
-        //        return whiteColor;
-        //    }
-
-        //    else if (item.itemRarity.ToString() == ItemRarity.Green.ToString())
-        //    {
-        //        var greenColor = Color.green;
-        //        return greenColor;
-        //    }
-
-        //    else if (item.itemRarity.ToString() == ItemRarity.Blue.ToString())
-        //    {
-        //        var blueColor = new Color(3, 91, 222);
-        //        return blueColor;
-        //    }
-
-        //    else if (item.itemRarity.ToString() == ItemRarity.Purple.ToString())
-        //    {
-        //        //color = Color.purple;
-        //    }
-        //    else
-        //    {
-        //        return color;
-        //    }
-
-        //    return color;
-        //}
-        #endregion
     }
 }

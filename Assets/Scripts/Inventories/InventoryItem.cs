@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RPG.Inventories
 {
     public enum ItemRarity { Generic, White, Green, Blue, Purple }
+    public enum ItemType { MeleeDps, RangedDps, Consumable, Cloth, Plate, Leather, Trinket, Ring, Shield, Spell}
 
     /// <summary>
     /// A ScriptableObject that represents any item that can be put in an
@@ -25,6 +27,7 @@ namespace RPG.Inventories
         [SerializeField] string subTitleLeft = null;
         [SerializeField] string subTitleRight = null;
         [SerializeField] string statsInfo = null;
+        [SerializeField] Sprite typeImage = null;
         [Tooltip("Item description to be displayed in UI.")]
         [SerializeField][TextArea] string description = null;
         [Tooltip("The UI icon to represent this item in the inventory.")]
@@ -124,6 +127,11 @@ namespace RPG.Inventories
         public string GetStatsInfo()
         {
             return statsInfo;
+        }
+
+        public Sprite GetToolTipTypeImage()
+        {
+            return typeImage;
         }
 
         // PRIVATE

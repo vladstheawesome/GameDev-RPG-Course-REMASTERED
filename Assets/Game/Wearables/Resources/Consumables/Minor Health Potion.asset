@@ -17,9 +17,10 @@ MonoBehaviour:
   subTitleLeft: Potion
   subTitleRight: Consumable
   statsInfo: Instant Use
+  typeImage: {fileID: 21300000, guid: 611e7f24158d7b64da21aa1fe74e4b49, type: 3}
   description: 'Use: Restores 60 Health'
   icon: {fileID: 21300000, guid: c141a594aaddb7c4b86c5d3ac3e2462a, type: 3}
   pickup: {fileID: 414247458184422234, guid: 36c68c257b6ab384d9f913b45f93ad4f, type: 3}
   stackable: 1
-  itemRarity: 1
+  itemRarity: 2
   consumable: 1

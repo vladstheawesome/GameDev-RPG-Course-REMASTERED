@@ -17,6 +17,7 @@ MonoBehaviour:
   subTitleLeft: Weapon
   subTitleRight: Sword
   statsInfo: + 5 Weapon Damage
+  typeImage: {fileID: 21300000, guid: 175462049451bfe4b8ac977b5443cfd5, type: 3}
   description: 'Equip: Adds +5 Weapon Damage on all equiped weapons'
   icon: {fileID: 21300000, guid: bcae3b34a773db248bc38385d7c55ed4, type: 3}
   pickup: {fileID: -5052075606713177355, guid: e4c9c7df14d48934094f709ec5424794, type: 3}
